@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/* css reseting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* making the nav bar into one line */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo properties */
+.nav-logo{
+    position: absolute;
+    padding: 112px 1212.54px 1709px 160px;
+    Width: 67.46px;
+    Height: 23px;
+    color: #181717;
+    cursor: pointer;
+    /* Top: 10px;
+    left: 0%;
+    right: 93.98%;
+    top: 28.57%;
+    bottom: 5.71%; */
+    /* background: #181717; */
+}
+
+.nav-logo:hover{
+    color: red;
+}
+
+/* making list elements into one line */
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: solid;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+
+    color: #181717;
+}
+
+.work{
+    position: absolute;
+    padding: 115px 494.91px 1704px 895.09px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    padding: 115px 404.56px 1704px 976.44px;
+    width: 59px;
+    height: 25px;
+}
+
+.playground{
+    position: absolute;
+    padding: 115px 268.29px 1704px 1066.71px;
+    width: 105px;
+    height: 25px;
+}
+
+.contact{
+    position: absolute;
+    width: 78px;
+    height: 25px;
+    padding: 115px 159.38px 1704px 1202.62px;   
+}
+
+section{
+    position: absolute;
+    padding: 360px 800px 1285px 160px;
+    /* width: 480px; */
+    height: 199px;
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 58px;
+    /* size: 60px; */
+    letter-spacing: -0.03em;
+
+    color: #181717;
+}
+
+.first{
+    position: absolute;
+    padding: 591px 705px 894px 160px;
+    /* width: 575px; */
+    height: 359px;  
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+
+.main-software{
+    position: absolute;
+    padding: 1089px 1156px 735px 160px;
+    /* width: 124px; */
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.87px;
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+.side1{
+    position: absolute;
+    padding: 1086px 657px 704px 347px;
+    /* width: 436px; */
+    height: 54px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    letter-spacing: -0.03em;
+    color: #181717;    
+}
+
+.side2{
+    position: absolute;
+    padding: 1164px 879px 653px 348px;
+    /* width: 213px; */
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    letter-spacing: -0.03em;
+    color: #181717; 
+}
+
+.main-Skills{
+    position: absolute;
+    padding: 1261px 1156px 563px 160px;
+    /* width: 124px; */
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;     
+}
+
+.side3{
+    position: absolute;
+    padding: 1258px 692px 542px 347px;
+    /* width: 401px; */
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+
+    letter-spacing: -0.03em;
+    color: #181717;     
+}
+
+
+.profile{
+    display: block;
+    position: absolute;
+    padding: 360px 160px 894px 859px;
+    width: 421px;
+    height: 590px;
+}
+
+.seperator{
+    position: absolute;
+    width: 1120px;
+    height: 2px;
+    left: calc(50%-1120px/2);
+    top: 1436px;
+    left:160px;
+    background-color: #181717;
+}
+
+.sideleft{
+    position: absolute;
+    padding: 1509px 933px 264px 160px;
+    /* width: 347px; */
+    height: 71px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+
+.reverselogo{
+    position: absolute;
+    /* padding: 1555px 997px 268px 419px; */
+    width: 21px;
+    height: 24px;
+    top: 1576px;
+    left: 419px;
+    transform: rotate(-90deg);
+}
+
+.rightside{
+    position: absolute;
+    padding: 1516px 239px 291px 829px;
+    width: 372px;
+    height: 37px;
+    /* top: 1516px;
+    left: 829px; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+/* or 37px */
+    letter-spacing: -0.03em;
+/* Main Black */
+    color: #181717;
+}
+
+.downside{
+    position: absolute;
+    padding: 1580px 501px 242px 829px;
+    /* width: 110px; */
+    height: 22px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* identical to box height, or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+}
+
+
+
+/* footer bar */
+#para{
+    position: absolute;
+    padding: 1772px 1009.18px 52px 160px;
+    /* width: 270.82px; */
+    height: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-family: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #2429AF;
+}
+
+.foot-list ul{
+    display: flex;
+    list-style: none;
+}
+
+.foot-list li a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+
+.foot-Artstation{
+    position: absolute;
+    padding: 1772px 391.14px 52px 950.65px;
+    width: 98.21px;
+    height: 20px;
+}
+
+.foot-Linkedin{
+    position: absolute;
+    padding: 1772px 261.19px 52px 1080.6px;
+    width: 98.21px;
+    height: 20px;
+}
+
+.foot-Twitter{
+    position: absolute;
+    padding: 1772px 160px 52px 1210.56px;
+    width: 69.44px;
+    height: 20px;
+} 
+
